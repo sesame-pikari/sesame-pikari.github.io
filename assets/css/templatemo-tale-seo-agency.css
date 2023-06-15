@@ -210,6 +210,41 @@ body {
   color: #c03afe;
 }
 
+.banner {
+  position: relative;
+  height: 400px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(8px); /* Adjust the blur strength as needed */
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 24px;
+}
+
+
 /* 
 ---------------------------------------------
 Pre-loader Style
@@ -1366,6 +1401,74 @@ Page Heading Style
 Infos Style
 --------------------------------------------- 
 */
+/* .video-container {
+  position: relative;
+  width: 696px;
+  height: 506px;
+} */
+
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.video-thumb {
+  width: 100%;
+  height: 500px;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.iclass {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.video-container .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.thumbnail-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumbnail-overlay i {
+  color: #fff;
+  font-size: 4rem;
+}
 
 .video-info {
   background-image: url(../images/video-bg.jpg);
