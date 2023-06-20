@@ -951,9 +951,9 @@ Services Style
 }
 
 .services::before {
-  content: url(../images/services-left.jpg);
+  content: url(../images/help.png);
   top: 120px;
-  left: 0;
+  left: 50px;
   position: absolute;
   width: 844px;
   height: 714px;
