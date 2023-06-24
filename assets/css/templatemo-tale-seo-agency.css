@@ -935,6 +935,38 @@ Banner Style
   display: inline-block;
 }
 
+/* Bullet
+*/
+.feature-list {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+}
+
+.feature-item {
+  margin-top: 20px;
+  margin-bottom: 20px; /* Add spacing between list items */
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+.bullet {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  background-color: #5b03e4;
+  border-radius: 50%;
+}
+
+.feature-card p {
+  margin: 0;
+}
+
 /* 
 ---------------------------------------------
 Services Style
