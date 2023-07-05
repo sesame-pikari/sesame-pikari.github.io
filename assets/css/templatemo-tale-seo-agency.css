@@ -863,6 +863,7 @@ Banner Style
 .main-banner {
   position: relative;
   padding: 295px 0px 185px 0px;
+  background: linear-gradient(90deg, rgb(102, 43, 203) 0%, rgb(193, 80, 241) 100%);
 }
 
 .main-banner:after {
@@ -983,9 +984,9 @@ Services Style
 }
 
 .services::before {
-  content: url(../images/help.png);
+  content: url(../images/image12.png);
   top: 120px;
-  left: 50px;
+  left: 150px;
   position: absolute;
   width: 844px;
   height: 714px;
@@ -1910,6 +1911,10 @@ Most Asked Style
   position: relative;
 }
 
+.accordion-body .content p{
+  color: #000 !important;
+}
+
 .most-asked::before {
   content: url(../images/contact-left.jpg);
   top: -60px;
@@ -2052,6 +2057,7 @@ body {
   }
   .main-banner {
     margin-top: 100px;
+    background-color: #5b03e4;
   }
   .header-area .main-nav .nav li:nth-child(4) {
     padding-right: 0px !important;
@@ -2190,10 +2196,6 @@ body {
     font-size: 15px;
     border-right: none;
   }
-
-}
-
-@media (max-width: 1200px) {
   .services::before {
     content: url(""); 
  
@@ -2203,6 +2205,11 @@ body {
     height: 714px;
     z-index: -1;
   }
+
+}
+
+@media (max-width: 1200px) {
+ 
   .services::before {
     top: 60%;
     transform: translateY(-50%);
